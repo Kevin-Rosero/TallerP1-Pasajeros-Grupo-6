@@ -196,7 +196,7 @@ Tabla de aportes
 | Integrante | Usuario de GitHub | Qué desarrolló | Enlace a su commit |
 |---|---|---|---|
 | Nombre 1 | @usuario1 | Validación de pasajeros (R1) | [Ver commit](URL_DEL_COMMIT) |
-| Nombre 2 | @usuario2 | Búsqueda de pasajeros (R2) | [Ver commit](URL_DEL_COMMIT) |
+| Kevin Rosero | @Kevin-Rosero | Agregar validaciones R1 y encolar pasajero con offer. Implementa el método agregar validando nulidad de pasajero, nombre no vacío con trim, rango de asiento (1-30) y unicidad en la cola antes de insertar. (R3) | [Ver commit](https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/d09b2adb84b6c8e67927c06129f7e64fb0a6f93a) |
 Jose Serrano | @joseserranosj | Cancelación de pasajeros (R3) | [Ver commit](https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/a6df953abae405996f334251d94a3b71bbab79f4) |
 | Daniel Valarezo | @dxni999 |Consulta de cantidad, estado y listado de pasajeros pendientes. | https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/33969e687c136dce8687efd2d551f02b5b9fcf59) |
 | Esteban Figueroa |  | Se verifica que la cola no esté vacía antes de realizar operaciones. El método extraer() utiliza poll() para retirar al primer pasajero respetando el orden FIFO, mientras que frente() utiliza peek() para consultar al siguiente pasajero sin eliminarlo. Ambos métodos lanzan NoSuchElementException cuando la cola está vacía. | https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/d17fcef84e651dd2b0ff1ef0d4e83cca3c162436|
