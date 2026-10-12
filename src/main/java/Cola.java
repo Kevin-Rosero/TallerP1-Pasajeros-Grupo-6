@@ -35,6 +35,20 @@ public class Cola {
         coleccion.offer(p);
     }
 
+    public Pasajero extraer() {
+        if (coleccion.isEmpty()) {
+            throw new NoSuchElementException("Cola sin elementos");
+        }
+        return coleccion.poll();
+    }
+
+    public Pasajero frente() {
+        if (coleccion.isEmpty()) {
+            throw new NoSuchElementException("Cola sin elementos");
+        }
+        return coleccion.peek();
+    }
+
     //R2
     public Pasajero buscarPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
