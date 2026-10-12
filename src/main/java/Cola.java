@@ -61,8 +61,18 @@ public class Cola {
     }
 
     public Pasajero buscarPorAsiento(int asiento) {
-        // TODO R2: validar rango y buscar sin retirar pasajeros.
-        throw new UnsupportedOperationException("Pendiente implementar R2: búsqueda");
+        if (asiento < 1 || asiento > 30) {
+            throw new IllegalArgumentException(
+                    "El asiento debe estar entre 1 y 30");
+        }
+
+        for (Pasajero pasajero : coleccion) {
+            if (pasajero.getNumeroAsiento() == asiento) {
+                return pasajero;
+            }
+        }
+
+        return null;
     }
 
     public int posicionPorAsiento(int asiento) {
