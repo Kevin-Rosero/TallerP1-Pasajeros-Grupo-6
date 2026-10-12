@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -93,8 +94,20 @@ public class Cola {
     }
 
     public Pasajero cancelarPorAsiento(int asiento) {
-        // TODO R3: retirar únicamente al indicado y conservar el orden restante.
-        throw new UnsupportedOperationException("Pendiente implementar R3: cancelación");
+        if (asiento < 1 || asiento > 30) {
+            throw new IllegalArgumentException("El asiento debe estar entre 1 y 30");
+        }
+
+        Iterator<Pasajero> it = coleccion.iterator();
+        while (it.hasNext()) {
+            Pasajero pasajero = it.next();
+            if (pasajero.getNumeroAsiento() == asiento) {
+                it.remove();
+                return pasajero;
+            }
+        }
+
+        throw new NoSuchElementException("No hay un pasajero pendiente en el asiento " + asiento);
     }
 
     @Override
