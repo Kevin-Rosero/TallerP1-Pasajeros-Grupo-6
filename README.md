@@ -185,3 +185,21 @@ El docente seleccionará dos preguntas por integrante. Se sugiere una demostraci
 - [Queue en Java 17](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Queue.html).
 - [JUnit 5 versión 5.11.0](https://docs.junit.org/5.11.0/user-guide/).
 - [GitHub configuración del correo de commits](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address).
+
+## Entregas
+
+Una captura de la ejecución final con las 20 pruebas aprobadas.
+
+
+Tabla de aportes
+
+| Integrante | Usuario de GitHub | Qué desarrolló | Enlace a su commit |
+|---|---|---|---|
+| Nombre 1 | @usuario1 | Validación de pasajeros (R1) | [Ver commit](URL_DEL_COMMIT) |
+| Nombre 2 | @usuario2 | Búsqueda de pasajeros (R2) | [Ver commit](URL_DEL_COMMIT) |
+| Nombre 3 | @usuario3 | Cancelación de pasajeros (R3) | [Ver commit](URL_DEL_COMMIT) |
+| Nombre 4 | @usuario4 | Aporte adicional de código | [Ver commit](URL_DEL_COMMIT) |
+
+
+
+
