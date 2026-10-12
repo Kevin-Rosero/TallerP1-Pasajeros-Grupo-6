@@ -173,12 +173,12 @@ El docente seleccionará dos preguntas por integrante. Se sugiere una demostraci
 
 ## Revisión final
 
-- [ ] R1, R2 y R3 implementados en `Cola.java`.
-- [ ] Atención FIFO conservada; ninguna cola con prioridad.
-- [ ] Las 20 pruebas pasan y la interfaz funciona.
-- [ ] Cada integrante tiene al menos un commit de código propio.
-- [ ] Tabla de integrantes completada y evidencia de pruebas incluida.
-- [ ] Todos pueden explicar su aporte y una prueba.
+- [x] R1, R2 y R3 implementados en `Cola.java`.
+- [x] Atención FIFO conservada; ninguna cola con prioridad.
+- [x] Las 20 pruebas pasan y la interfaz funciona.
+- [x] Cada integrante tiene al menos un commit de código propio.
+- [x] Tabla de integrantes completada y evidencia de pruebas incluida.
+- [x] Todos pueden explicar su aporte y una prueba.
 
 ## Referencias
 
@@ -189,8 +189,7 @@ El docente seleccionará dos preguntas por integrante. Se sugiere una demostraci
 ## Entregas
 
 Una captura de la ejecución final con las 20 pruebas aprobadas.
-![Primera evidencia](img.png)
-![Segunda evidencia](img_1.png)
+![20 pruebas aprobadas](Captura%20de%20pantalla%202026-10-12%20081357.png)
 
 Tabla de aportes
 
