@@ -189,7 +189,8 @@ El docente seleccionará dos preguntas por integrante. Se sugiere una demostraci
 ## Entregas
 
 Una captura de la ejecución final con las 20 pruebas aprobadas.
-
+![Primera evidencia](img.png)
+![Segunda evidencia](img_1.png)
 
 Tabla de aportes
 
@@ -199,7 +200,7 @@ Tabla de aportes
 | Kevin Rosero | @Kevin-Rosero | Agregar validaciones R1 y encolar pasajero con offer. Implementa el método agregar validando nulidad de pasajero, nombre no vacío con trim, rango de asiento (1-30) y unicidad en la cola antes de insertar. (R3) | [Ver commit](https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/d09b2adb84b6c8e67927c06129f7e64fb0a6f93a) |
 Jose Serrano | @joseserranosj | Cancelación de pasajeros (R3) | [Ver commit](https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/a6df953abae405996f334251d94a3b71bbab79f4) |
 | Daniel Valarezo | @dxni999 |Consulta de cantidad, estado y listado de pasajeros pendientes. | https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/33969e687c136dce8687efd2d551f02b5b9fcf59) |
-| Esteban Figueroa |  | Se verifica que la cola no esté vacía antes de realizar operaciones. El método extraer() utiliza poll() para retirar al primer pasajero respetando el orden FIFO, mientras que frente() utiliza peek() para consultar al siguiente pasajero sin eliminarlo. Ambos métodos lanzan NoSuchElementException cuando la cola está vacía. | https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/d17fcef84e651dd2b0ff1ef0d4e83cca3c162436|
+| Esteban Figueroa | EstebanFigueroa2006 | Validación de cola vacía y manejo de excepciones en los métodos extraer() y frente(), utilizando poll() y peek() para mantener el orden FIFO. | https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/d17fcef84e651dd2b0ff1ef0d4e83cca3c162436%7C
 
 
 
