@@ -76,8 +76,20 @@ public class Cola {
     }
 
     public int posicionPorAsiento(int asiento) {
-        // TODO R2: posiciones desde 1; devolver -1 si no está en la fila.
-        throw new UnsupportedOperationException("Pendiente implementar R2: posición");
+        if (asiento < 1 || asiento > 30) {
+            throw new IllegalArgumentException(
+                    "El asiento debe estar entre 1 y 30");
+        }
+
+        int posicion = 1;
+        for (Pasajero pasajero : coleccion) {
+            if (pasajero.getNumeroAsiento() == asiento) {
+                return posicion;
+            }
+            posicion++;
+        }
+
+        return -1;
     }
 
     public Pasajero cancelarPorAsiento(int asiento) {
