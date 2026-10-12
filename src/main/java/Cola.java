@@ -49,6 +49,18 @@ public class Cola {
         return coleccion.peek();
     }
 
+    public int size() {
+        return coleccion.size();
+    }
+
+    public boolean estaVacia() {
+        return coleccion.isEmpty();
+    }
+
+    public List<Pasajero> obtenerPendientes() {
+        return Collections.unmodifiableList(new ArrayList<>(coleccion));
+    }
+
     //R2
     public Pasajero buscarPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
