@@ -60,7 +60,7 @@ public class Cola {
     public List<Pasajero> obtenerPendientes() {
         return Collections.unmodifiableList(new ArrayList<>(coleccion));
     }
-
+    //R2 
     public Pasajero buscarPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
             throw new IllegalArgumentException(
@@ -75,7 +75,7 @@ public class Cola {
 
         return null;
     }
-
+    //R2 Parte 2
     public int posicionPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
             throw new IllegalArgumentException(
@@ -92,7 +92,7 @@ public class Cola {
 
         return -1;
     }
-
+    //R3
     public Pasajero cancelarPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
             throw new IllegalArgumentException("El asiento debe estar entre 1 y 30");
