@@ -198,7 +198,7 @@ Tabla de aportes
 | Nombre 1 | @usuario1 | Validación de pasajeros (R1) | [Ver commit](URL_DEL_COMMIT) |
 | Nombre 2 | @usuario2 | Búsqueda de pasajeros (R2) | [Ver commit](URL_DEL_COMMIT) |
 | Nombre 3 | @usuario3 | Cancelación de pasajeros (R3) | [Ver commit](URL_DEL_COMMIT) |
-| Nombre 4 | @usuario4 | Aporte adicional de código | [Ver commit](URL_DEL_COMMIT) |
+| Nombre 4 | @dxni999 | Aporte adicional de código | [Ver commit](https://github.com/Kevin-Rosero/TallerP1-Pasajeros-Grupo-6/commit/33969e687c136dce8687efd2d551f02b5b9fcf59) |
 
 
 
