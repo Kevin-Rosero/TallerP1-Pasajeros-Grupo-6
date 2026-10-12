@@ -60,6 +60,7 @@ public class Cola {
     public List<Pasajero> obtenerPendientes() {
         return Collections.unmodifiableList(new ArrayList<>(coleccion));
     }
+    
     //R2 
     public Pasajero buscarPorAsiento(int asiento) {
         if (asiento < 1 || asiento > 30) {
