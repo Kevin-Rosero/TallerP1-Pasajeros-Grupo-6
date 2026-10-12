@@ -49,6 +49,7 @@ public class Cola {
         return coleccion.peek();
     }
 
+    //R1
     public int size() {
         return coleccion.size();
     }
