@@ -14,7 +14,7 @@ public class Cola {
     }
 
     public void agregar(Pasajero p) {
-//R1: validar que el pasajero no sea nulo, que su nombre no sea nulo ni vacío, que el asiento esté entre 1 y 30, y que el asiento no esté ocupado en la cola.
+//R1
 
         if (p == null) {
             throw new IllegalArgumentException("El pasajero no puede ser nulo");
